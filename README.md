@@ -9,10 +9,11 @@ Repository to track the progress in model compression and acceleration
 ## Pruning
 
 - AMC: AutoML for Model Compression and Acceleration on Mobile Devices (ECCV18)
-| [paper](https://arxiv.org/abs/1802.03494) | code | dataset : model | metrics
-  - [models](AMC: AutoML for Model Compression and Acceleration on Mobile Devices (ECCV18)) (TensorFlow, TensorFlow Light)
-- ThiNet 
-  - Pretrained Caffe model (https://github.com/Roll920/ThiNet)
+[paper](https://arxiv.org/abs/1802.03494) | [pretrained models (TensorFlow, TensorFlow Light)](https://github.com/mit-han-lab/amc-compressed-models)
+- ThiNet: A Filter Level Pruning Method for Deep Neural Network Compression (ICCV 2017)
+[paper](https://arxiv.org/abs/1707.06342) | [pretrained model (Caffe)](https://github.com/Roll920/ThiNet)
+- SphereFace: Deep Hypersphere Embedding for Face Recognition (CVPR 2017)
+[paper](https://arxiv.org/abs/1704.08063) | [code and pretrained models (Caffe)](https://github.com/isthatyoung/Sphereface-prune) 
 
 ## Quantization
 
