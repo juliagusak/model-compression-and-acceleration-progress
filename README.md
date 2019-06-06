@@ -32,8 +32,7 @@ Repository to track the progress in model compression and acceleration
 ### Papers
 - Paper 4 \
 | paper | code | dataset : model | metrics
-- Knowledge disstillation + quantization (Pytorch)
-https://github.com/antspy/quantized_distillation
+- Knowledge disstillation + quantization [code (Pytorch)](https://github.com/antspy/quantized_distillation)
 - Learning Efficient Detector with Semi-supervised Adaptive Distillation (arxiv 2019) [paper](https://arxiv.org/abs/1901.00366) | [code (Caffe)](https://github.com/Tangshitao/Semi-supervised-Adaptive-Distillation)
 
 ### Repos
@@ -54,3 +53,4 @@ TensorFlow implementation of three papers https://github.com/chengshengchan/mode
 - https://github.com/chester256/Model-Compression-Papers
 - https://github.com/mapleam/model-compression-and-acceleration-4-DNN
 - https://github.com/cedrickchee/awesome-ml-model-compression
+- https://github.com/jnjaby/Model-Compression-Acceleration
