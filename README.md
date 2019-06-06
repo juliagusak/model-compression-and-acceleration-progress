@@ -30,9 +30,7 @@ Repository to track the progress in model compression and acceleration
 ## Knowledge distillation 
 
 ### Papers
-- Paper 4 \
-| paper | code | dataset : model | metrics
-- Knowledge disstillation + quantization [code (Pytorch)](https://github.com/antspy/quantized_distillation)
+- Model compression via distillation and quantization (ICLR 2018) [paper](https://arxiv.org/abs/1802.05668) | [code (Pytorch)](https://github.com/antspy/quantized_distillation)
 - Learning Efficient Detector with Semi-supervised Adaptive Distillation (arxiv 2019) [paper](https://arxiv.org/abs/1901.00366) | [code (Caffe)](https://github.com/Tangshitao/Semi-supervised-Adaptive-Distillation)
 
 ### Repos
