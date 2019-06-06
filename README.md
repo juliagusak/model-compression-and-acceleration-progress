@@ -3,8 +3,29 @@ Repository to track the progress in model compression and acceleration
 
 ## Low-rank approximation
 
-- Paper 1 \
-| paper | code | dataset : model | metrics
+- Efficient Neural Network Compression (CVPR 2019)
+[paper](https://arxiv.org/abs/1811.12781) | [code (Caffe)](https://github.com/Hyeji-Kim/ENC) 
+- Adaptive Mixture of Low-Rank Factorizations for Compact Neural Modeling (ICLR 2019)
+[paper](https://openreview.net/pdf?id=B1eHgu-Fim) | [code (PyTorch)](https://github.com/zuenko/ALRF)
+- MUSCO: Multi-Stage COmpression of neural networks (2019)
+[paper](https://arxiv.org/abs/1903.09973) | [code (PyTorch)](https://github.com/juliagusak/musco)
+- Extreme Network Compression via Filter Group Approximation (ECCV 2018)
+[paper](https://arxiv.org/abs/1807.11254)
+- Ultimate tensorization: compressing convolutional and FC layers alike (NIPS 2016 workshop)
+[paper](https://arxiv.org/abs/1611.03214) | [code (TensorFlow)](https://github.com/timgaripov/TensorNet-TF) | [code (MATLAB, Theano + Lasagne)](https://github.com/Bihaqo/TensorNet)
+- Compression of Deep Convolutional Neural Networks for Fast and Low Power Mobile Applications (ICLR 2016)
+[paper](https://arxiv.org/abs/1511.06530) 
+- Accelerating Very Deep Convolutional Networks for Classification and Detection (IEEE TPAMI 2016)
+[paper](https://arxiv.org/abs/1505.06798)
+- Speeding-up Convolutional Neural Networks Using Fine-tuned CP-Decomposition (ICLR 2015)
+[paper](https://arxiv.org/abs/1412.6553) | [code (Caffe)](https://github.com/vadim-v-lebedev/cp-decomposition)
+- Exploiting Linear Structure Within Convolutional Networks for Efficient Evaluation (NIPS 2014)
+[paper](https://arxiv.org/abs/1404.0736)
+- Speeding up Convolutional Neural Networks with Low Rank Expansions (2014)
+[paper](https://arxiv.org/abs/1405.3866)
+
+
+
 
 ## Pruning
 ### Papers
