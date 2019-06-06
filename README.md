@@ -3,12 +3,12 @@ Repository to track the progress in model compression and acceleration
 
 ## Low-rank approximation
 
+- MUSCO: Multi-Stage COmpression of neural networks (2019)
+[paper](https://arxiv.org/abs/1903.09973) | [code (PyTorch)](https://github.com/juliagusak/musco)
 - Efficient Neural Network Compression (CVPR 2019)
 [paper](https://arxiv.org/abs/1811.12781) | [code (Caffe)](https://github.com/Hyeji-Kim/ENC) 
 - Adaptive Mixture of Low-Rank Factorizations for Compact Neural Modeling (ICLR 2019)
 [paper](https://openreview.net/pdf?id=B1eHgu-Fim) | [code (PyTorch)](https://github.com/zuenko/ALRF)
-- MUSCO: Multi-Stage COmpression of neural networks (2019)
-[paper](https://arxiv.org/abs/1903.09973) | [code (PyTorch)](https://github.com/juliagusak/musco)
 - Extreme Network Compression via Filter Group Approximation (ECCV 2018)
 [paper](https://arxiv.org/abs/1807.11254)
 - Ultimate tensorization: compressing convolutional and FC layers alike (NIPS 2016 workshop)
@@ -25,19 +25,41 @@ Repository to track the progress in model compression and acceleration
 [paper](https://arxiv.org/abs/1405.3866)
 
 
-
-
 ## Pruning
+
 ### Papers
+
+- Dynamic Channel Pruning: Feature Boosting and Suppression (ICLR 2019)
+[paper](https://arxiv.org/abs/1810.05331) | [code](https://github.com/deep-fry/mayo)
+- AutoPruner: An End-to-End Trainable Filter Pruning Method for Efficient Deep Model Inference (2019)
+[paper](https://arxiv.org/abs/1805.08941)
+- Soft Filter Pruning for Accelerating Deep Convolutional Neural Networks (IJCAI 2018)
+[paper](https://arxiv.org/abs/1808.06866) | [code and models (PyTorch)](ttps://github.com/he-y/soft-filter-pruning)
+- Discrimination-aware Channel Pruning for Deep Neural Networks (NIPS 2018)
+[paper](https://papers.nips.cc/paper/7367-discrimination-aware-channel-pruning-for-deep-neural-networks.pdf) | [code and pretrained models (PyTorch)](https://github.com/SCUT-AILab/DCP)
 - AMC: AutoML for Model Compression and Acceleration on Mobile Devices (ECCV18)
 [paper](https://arxiv.org/abs/1802.03494) | [pretrained models (TensorFlow, TensorFlow Light)](https://github.com/mit-han-lab/amc-compressed-models)
+- Channel Gating Neural Networks (2018)
+[paper](https://arxiv.org/abs/1805.12549
+- Channel Pruning for Accelerating Very Deep Neural Networks (ICCV 2017)
+[paper](https://arxiv.org/abs/1707.06168) | [code and pretrained models (Caffe)](https://github.com/yihui-he/channel-pruning)
 - ThiNet: A Filter Level Pruning Method for Deep Neural Network Compression (ICCV 2017)
 [paper](https://arxiv.org/abs/1707.06342) | [pretrained model (Caffe)](https://github.com/Roll920/ThiNet)
 - SphereFace: Deep Hypersphere Embedding for Face Recognition (CVPR 2017)
 [paper](https://arxiv.org/abs/1704.08063) | [code and pretrained models (Caffe)](https://github.com/isthatyoung/Sphereface-prune) 
+- Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding (ICLR 2016)
+[paper](https://arxiv.org/abs/1510.00149)
+- Fast ConvNets Using Group-wise Brain Damage (CVPR 2016)
+[paper](http://openaccess.thecvf.com/content_cvpr_2016/papers/Lebedev_Fast_ConvNets_Using_CVPR_2016_paper.pdf)
 
 ### Repos
 - Pruning + quantization [code and pretrained models (TensorFlow, TensorFlow light)](https://github.com/vikranth94/Model-Compression). Examples for CIFAR.
+
+## Sparsification
+- Structured Bayesian Pruning via Log-Normal Multiplicative Noise (NIPS 2017)
+[paper](https://papers.nips.cc/paper/7254-structured-bayesian-pruning-via-log-normal-multiplicative-noise.pdf) | [code (TensorFlow, Theano + Lasagne)](https://github.com/necludov/group-sparsity-sbp)
+
+
 
 ## Quantization
 
@@ -62,6 +84,7 @@ TensorFlow implementation of three papers https://github.com/chengshengchan/mode
 - [PocketFlow](https://github.com/Tencent/PocketFlow) - framework for model pruning, sparcification, quantization (TensorFlow implementation) 
 - [Keras compressor](https://github.com/DwangoMediaVillage/keras_compressor) - compression using low-rank approximations, SVD for matrices, Tucker for tensors.
 - [Caffe compressor](https://github.com/yuanyuanli85/CaffeModelCompression) K-means based quantization
+- [Mayo](https://github.com/deep-fry/mayo) - deep learning framework with fine- and coarse-grained pruning, network slimming, and quantization methods 
 
 ## Similar repos
 
