@@ -8,8 +8,9 @@ Repository to track the progress in model compression and acceleration
 
 ## Pruning
 
-- Paper 2 \
-| paper | code | dataset : model | metrics
+- AMC: AutoML for Model Compression and Acceleration on Mobile Devices (ECCV18)
+| [paper](https://arxiv.org/abs/1802.03494) | code | dataset : model | metrics
+  - [models](AMC: AutoML for Model Compression and Acceleration on Mobile Devices (ECCV18)) (TensorFlow, TensorFlow Light)
 - ThiNet 
   - Pretrained Caffe model (https://github.com/Roll920/ThiNet)
 
