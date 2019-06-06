@@ -1,4 +1,4 @@
-# model-compression-and-acceleration-progress
+# Model Compression and Acceleration Progress
 Repository to track the progress in model compression and acceleration
 
 ## Low-rank approximation
@@ -26,15 +26,13 @@ Repository to track the progress in model compression and acceleration
 
 
 ## Pruning
-
-### Papers
-
+#### Papers
 - Dynamic Channel Pruning: Feature Boosting and Suppression (ICLR 2019)
 [paper](https://arxiv.org/abs/1810.05331) | [code](https://github.com/deep-fry/mayo)
 - AutoPruner: An End-to-End Trainable Filter Pruning Method for Efficient Deep Model Inference (2019)
 [paper](https://arxiv.org/abs/1805.08941)
 - Soft Filter Pruning for Accelerating Deep Convolutional Neural Networks (IJCAI 2018)
-[paper](https://arxiv.org/abs/1808.06866) | [code and models (PyTorch)](ttps://github.com/he-y/soft-filter-pruning)
+[paper](https://arxiv.org/abs/1808.06866) | [code and models (PyTorch)](https://github.com/he-y/soft-filter-pruning)
 - Discrimination-aware Channel Pruning for Deep Neural Networks (NIPS 2018)
 [paper](https://papers.nips.cc/paper/7367-discrimination-aware-channel-pruning-for-deep-neural-networks.pdf) | [code and pretrained models (PyTorch)](https://github.com/SCUT-AILab/DCP)
 - AMC: AutoML for Model Compression and Acceleration on Mobile Devices (ECCV18)
@@ -52,7 +50,7 @@ Repository to track the progress in model compression and acceleration
 - Fast ConvNets Using Group-wise Brain Damage (CVPR 2016)
 [paper](http://openaccess.thecvf.com/content_cvpr_2016/papers/Lebedev_Fast_ConvNets_Using_CVPR_2016_paper.pdf)
 
-### Repos
+#### Repos
 - Pruning + quantization [code and pretrained models (TensorFlow, TensorFlow light)](https://github.com/vikranth94/Model-Compression). Examples for CIFAR.
 
 ## Sparsification
@@ -71,12 +69,11 @@ Repository to track the progress in model compression and acceleration
 | paper | code | dataset : model | metrics
 
 ## Knowledge distillation 
-
-### Papers
+#### Papers
 - Model compression via distillation and quantization (ICLR 2018) [paper](https://arxiv.org/abs/1802.05668) | [code (Pytorch)](https://github.com/antspy/quantized_distillation)
 - Learning Efficient Detector with Semi-supervised Adaptive Distillation (arxiv 2019) [paper](https://arxiv.org/abs/1901.00366) | [code (Caffe)](https://github.com/Tangshitao/Semi-supervised-Adaptive-Distillation)
 
-### Repos
+#### Repos
 TensorFlow implementation of three papers https://github.com/chengshengchan/model_compression, results for CIFAR-10
 
 
