@@ -58,6 +58,21 @@ Repository to track the progress in model compression and acceleration
 [paper](https://papers.nips.cc/paper/7254-structured-bayesian-pruning-via-log-normal-multiplicative-noise.pdf) | [code (TensorFlow, Theano + Lasagne)](https://github.com/necludov/group-sparsity-sbp)
 
 
+## Knowledge distillation 
+#### Papers
+- Learning Efficient Detector with Semi-supervised Adaptive Distillation (arxiv 2019) [paper](https://arxiv.org/abs/1901.00366) | [code (Caffe)](https://github.com/Tangshitao/Semi-supervised-Adaptive-Distillation)
+- Model compression via distillation and quantization (ICLR 2018) [paper](https://arxiv.org/abs/1802.05668) | [code (Pytorch)](https://github.com/antspy/quantized_distillation)
+- Training Shallow and Thin Networks for Acceleration via Knowledge Distillation with Conditional Adversarial Networks (ICLR 2018 workshop)
+[paper](https://arxiv.org/abs/1709.00513)
+- Training Shallow and Thin Networks for Acceleration via Knowledge Distillation with Conditional Adversarial Networks ( BMVC 2018)
+[paper](https://arxiv.org/abs/1709.00513)
+- Net2Net: Accelerating Learning via Knowledge Transfer (ICLR 2016)
+[paper](https://arxiv.org/abs/1511.05641)
+- Distilling the Knowledge in a Neural Network (NIPS 2014)
+[paper](https://arxiv.org/abs/1503.02531)
+- FitNets: Hints for Thin Deep Nets (2014)
+[paper](https://arxiv.org/abs/1412.6550) | [code (Theano + Pylearn2)](https://github.com/adri-romsor/FitNets)
+
 
 ## Quantization
 
@@ -68,10 +83,6 @@ Repository to track the progress in model compression and acceleration
 - Paper 5 \
 | paper | code | dataset : model | metrics
 
-## Knowledge distillation 
-#### Papers
-- Model compression via distillation and quantization (ICLR 2018) [paper](https://arxiv.org/abs/1802.05668) | [code (Pytorch)](https://github.com/antspy/quantized_distillation)
-- Learning Efficient Detector with Semi-supervised Adaptive Distillation (arxiv 2019) [paper](https://arxiv.org/abs/1901.00366) | [code (Caffe)](https://github.com/Tangshitao/Semi-supervised-Adaptive-Distillation)
 
 #### Repos
 TensorFlow implementation of three papers https://github.com/chengshengchan/model_compression, results for CIFAR-10
