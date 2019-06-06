@@ -40,7 +40,7 @@ Repository to track the progress in model compression and acceleration
 - AMC: AutoML for Model Compression and Acceleration on Mobile Devices (ECCV18)
 [paper](https://arxiv.org/abs/1802.03494) | [pretrained models (TensorFlow, TensorFlow Light)](https://github.com/mit-han-lab/amc-compressed-models)
 - Channel Gating Neural Networks (2018)
-[paper](https://arxiv.org/abs/1805.12549
+[paper](https://arxiv.org/abs/1805.12549)
 - Channel Pruning for Accelerating Very Deep Neural Networks (ICCV 2017)
 [paper](https://arxiv.org/abs/1707.06168) | [code and pretrained models (Caffe)](https://github.com/yihui-he/channel-pruning)
 - ThiNet: A Filter Level Pruning Method for Deep Neural Network Compression (ICCV 2017)
