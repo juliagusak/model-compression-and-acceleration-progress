@@ -77,7 +77,7 @@ Repository to track the progress in model compression and acceleration
 ## Quantization
 - TODO
 
-## Optimal architecture search
+## Architecture search
 - TODO
 
 #### Repos
