@@ -76,12 +76,12 @@ Repository to track the progress in model compression and acceleration
 
 ## Quantization
 
-- Paper 3 \
-| paper | code | dataset : model | metrics
+- Paper 1 \
+| paper | code 
 
 ## Optimal architecture search 
-- Paper 5 \
-| paper | code | dataset : model | metrics
+- Paper 1 \
+| paper | code 
 
 
 #### Repos
@@ -93,6 +93,13 @@ TensorFlow implementation of three papers https://github.com/chengshengchan/mode
 - [Keras compressor](https://github.com/DwangoMediaVillage/keras_compressor) - compression using low-rank approximations, SVD for matrices, Tucker for tensors.
 - [Caffe compressor](https://github.com/yuanyuanli85/CaffeModelCompression) K-means based quantization
 - [Mayo](https://github.com/deep-fry/mayo) - deep learning framework with fine- and coarse-grained pruning, network slimming, and quantization methods 
+
+## Comparison
+
+#### ResNet-50 on ILSVRS-2012
+
+
+#### 
 
 ## Similar repos
 
