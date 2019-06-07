@@ -94,9 +94,9 @@ TensorFlow implementation of three papers https://github.com/chengshengchan/mode
 - [Caffe compressor](https://github.com/yuanyuanli85/CaffeModelCompression) K-means based quantization
 - [Mayo](https://github.com/deep-fry/mayo) - deep learning framework with fine- and coarse-grained pruning, network slimming, and quantization methods 
 
-## Comparison
+## Comparison of different approaches
 
-#### ResNet-50 on ILSVRS-2012
+Please, see ```comparative_results.pdf``` 
 
 
 #### 
