@@ -27,6 +27,8 @@ Repository to track the progress in model compression and acceleration
 
 ## Pruning
 #### Papers
+- Rethinking the Value of Network Pruning (ICLR 2019, NIPS 2018 workshop) 
+[paper](https://arxiv.org/abs/1810.05270) | [code](https://github.com/Eric-mingjie/rethinking-network-pruning)
 - Dynamic Channel Pruning: Feature Boosting and Suppression (ICLR 2019)
 [paper](https://arxiv.org/abs/1810.05331) | [code](https://github.com/deep-fry/mayo)
 - AutoPruner: An End-to-End Trainable Filter Pruning Method for Efficient Deep Model Inference (2019)
@@ -40,9 +42,9 @@ Repository to track the progress in model compression and acceleration
 - Channel Gating Neural Networks (2018)
 [paper](https://arxiv.org/abs/1805.12549)
 - Channel Pruning for Accelerating Very Deep Neural Networks (ICCV 2017)
-[paper](https://arxiv.org/abs/1707.06168) | [code and pretrained models (Caffe)](https://github.com/yihui-he/channel-pruning)
+[paper](https://arxiv.org/abs/1707.06168) | [code and pretrained models (Caffe)](https://github.com/yihui-he/channel-pruning) | [code (PyTorch)](https://github.com/Eric-mingjie/rethinking-network-pruning/tree/master/imagenet)
 - ThiNet: A Filter Level Pruning Method for Deep Neural Network Compression (ICCV 2017)
-[paper](https://arxiv.org/abs/1707.06342) | [pretrained model (Caffe)](https://github.com/Roll920/ThiNet)
+[paper](https://arxiv.org/abs/1707.06342) | [pretrained model (Caffe)](https://github.com/Roll920/ThiNet) | [code (PyTorch)](https://github.com/Eric-mingjie/rethinking-network-pruning/tree/master/imagenet)
 - SphereFace: Deep Hypersphere Embedding for Face Recognition (CVPR 2017)
 [paper](https://arxiv.org/abs/1704.08063) | [code and pretrained models (Caffe)](https://github.com/isthatyoung/Sphereface-prune) 
 - Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding (ICLR 2016)
@@ -73,23 +75,43 @@ Repository to track the progress in model compression and acceleration
 - FitNets: Hints for Thin Deep Nets (2014)
 [paper](https://arxiv.org/abs/1412.6550) | [code (Theano + Pylearn2)](https://github.com/adri-romsor/FitNets)
 
+#### Repos
+TensorFlow implementation of three papers https://github.com/chengshengchan/model_compression, results for CIFAR-10
 
 ## Quantization
 - TODO
 
 ## Architecture search
-- TODO
+- MobileNets
+  - Searching for MobileNetV3
+  [paper](https://arxiv.org/abs/1905.02244)
+  - MobileNetV2: Inverted Residuals and Linear Bottlenecks (CVPR 2018)
+  [paper](https://arxiv.org/abs/1801.04381) | [code and pretrained models (TensorFlow)](https://github.com/tensorflow/models/tree/master/research/slim/nets/mobilenet)
+- EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks (ICML 2019)
+[paper](https://arxiv.org/abs/1905.11946) | [code and pretrained models (TensorFlow)](https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet)
+- MnasNet: Platform-Aware Neural Architecture Search for Mobile (CVPR 2019)
+[paper](https://arxiv.org/abs/1807.11626) | [code (TensorFlow)](https://github.com/tensorflow/tpu/tree/master/models/official/mnasnet)
+- MorphNet: Fast & Simple Resource-Constrained Learning of Deep Network Structure (CVPR 2018) 
+[paper](https://arxiv.org/abs/1711.06798) | [code (TensorFlow)](https://github.com/google-research/morph-net)
+- ShuffleNets
+  - ShuffleNet V2: Practical Guidelines for Efficient CNN Architecture Design (ECCV 2018)
+  [paper](https://arxiv.org/abs/1807.11164)
+  - ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile Devices (CVPR 2018)
+  [paper](https://arxiv.org/abs/1707.01083)
 
-#### Repos
-TensorFlow implementation of three papers https://github.com/chengshengchan/model_compression, results for CIFAR-10
+
+
+
 
 
 ## Frameworks
+- [MorphNet](https://github.com/google-research/morph-net) - framework for neural networks architecture learning (TensorFlow)
+- [MUSCO](https://github.com/juliagusak/musco) - framework for model compression using tensor decompositions (PyTorch)
+- [Mayo](https://github.com/deep-fry/mayo) - deep learning framework with fine- and coarse-grained pruning, network slimming, and quantization methods 
 - [PocketFlow](https://github.com/Tencent/PocketFlow) - framework for model pruning, sparcification, quantization (TensorFlow implementation) 
 - [Keras compressor](https://github.com/DwangoMediaVillage/keras_compressor) - compression using low-rank approximations, SVD for matrices, Tucker for tensors.
 - [Caffe compressor](https://github.com/yuanyuanli85/CaffeModelCompression) K-means based quantization
-- [Mayo](https://github.com/deep-fry/mayo) - deep learning framework with fine- and coarse-grained pruning, network slimming, and quantization methods 
-- [MUSCO](https://github.com/juliagusak/musco) - framework for model compression using tensor decompositions (PyTorch)
+
 
 ## Comparison of different approaches
 
