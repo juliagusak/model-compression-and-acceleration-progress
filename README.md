@@ -28,7 +28,7 @@ Repository to track the progress in model compression and acceleration
 ## Pruning
 #### Papers
 - Rethinking the Value of Network Pruning (ICLR 2019, NIPS 2018 workshop) 
-[paper](https://arxiv.org/abs/1810.05270) | [code](https://github.com/Eric-mingjie/rethinking-network-pruning)
+[paper](https://arxiv.org/abs/1810.05270) | [code (PyTorch)](https://github.com/Eric-mingjie/rethinking-network-pruning)
 - Dynamic Channel Pruning: Feature Boosting and Suppression (ICLR 2019)
 [paper](https://arxiv.org/abs/1810.05331) | [code](https://github.com/deep-fry/mayo)
 - AutoPruner: An End-to-End Trainable Filter Pruning Method for Efficient Deep Model Inference (2019)
