@@ -43,6 +43,8 @@ Repository to track the progress in model compression and acceleration
 [paper](https://arxiv.org/abs/1805.12549)
 - Channel Pruning for Accelerating Very Deep Neural Networks (ICCV 2017)
 [paper](https://arxiv.org/abs/1707.06168) | [code and pretrained models (Caffe)](https://github.com/yihui-he/channel-pruning) | [code (PyTorch)](https://github.com/Eric-mingjie/rethinking-network-pruning/tree/master/imagenet)
+- Learning Efficient Convolutional Networks through Network Slimming (ICCV 2017)
+[paper](https://arxiv.org/abs/1708.06519) | [code (Torch, Pytorch)](https://github.com/Eric-mingjie/network-slimming)
 - ThiNet: A Filter Level Pruning Method for Deep Neural Network Compression (ICCV 2017)
 [paper](https://arxiv.org/abs/1707.06342) | [pretrained model (Caffe)](https://github.com/Roll920/ThiNet) | [code (PyTorch)](https://github.com/Eric-mingjie/rethinking-network-pruning/tree/master/imagenet)
 - SphereFace: Deep Hypersphere Embedding for Face Recognition (CVPR 2017)
