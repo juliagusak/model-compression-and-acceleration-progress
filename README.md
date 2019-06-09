@@ -25,7 +25,7 @@ Repository to track the progress in model compression and acceleration
 [paper](https://arxiv.org/abs/1405.3866)
 
 
-## Pruning
+## Pruning & Sparcification
 #### Papers
 - Rethinking the Value of Network Pruning (ICLR 2019, NIPS 2018 workshop) 
 [paper](https://arxiv.org/abs/1810.05270) | [code (PyTorch)](https://github.com/Eric-mingjie/rethinking-network-pruning)
@@ -47,6 +47,8 @@ Repository to track the progress in model compression and acceleration
 [paper](https://arxiv.org/abs/1708.06519) | [code (Torch, Pytorch)](https://github.com/Eric-mingjie/network-slimming)
 - ThiNet: A Filter Level Pruning Method for Deep Neural Network Compression (ICCV 2017)
 [paper](https://arxiv.org/abs/1707.06342) | [pretrained model (Caffe)](https://github.com/Roll920/ThiNet) | [code (PyTorch)](https://github.com/Eric-mingjie/rethinking-network-pruning/tree/master/imagenet)
+- Structured Bayesian Pruning via Log-Normal Multiplicative Noise (NIPS 2017)
+[paper](https://papers.nips.cc/paper/7254-structured-bayesian-pruning-via-log-normal-multiplicative-noise.pdf) | [code (TensorFlow, Theano + Lasagne)](https://github.com/necludov/group-sparsity-sbp)
 - SphereFace: Deep Hypersphere Embedding for Face Recognition (CVPR 2017)
 [paper](https://arxiv.org/abs/1704.08063) | [code and pretrained models (Caffe)](https://github.com/isthatyoung/Sphereface-prune) 
 - Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding (ICLR 2016)
@@ -56,10 +58,6 @@ Repository to track the progress in model compression and acceleration
 
 #### Repos
 - Pruning + quantization [code and pretrained models (TensorFlow, TensorFlow light)](https://github.com/vikranth94/Model-Compression). Examples for CIFAR.
-
-## Sparsification
-- Structured Bayesian Pruning via Log-Normal Multiplicative Noise (NIPS 2017)
-[paper](https://papers.nips.cc/paper/7254-structured-bayesian-pruning-via-log-normal-multiplicative-noise.pdf) | [code (TensorFlow, Theano + Lasagne)](https://github.com/necludov/group-sparsity-sbp)
 
 
 ## Knowledge distillation 
