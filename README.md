@@ -107,8 +107,9 @@ TensorFlow implementation of three papers https://github.com/chengshengchan/mode
 
 
 ## Frameworks
-- [MorphNet](https://github.com/google-research/morph-net) - framework for neural networks architecture learning (TensorFlow)
 - [MUSCO](https://github.com/juliagusak/musco) - framework for model compression using tensor decompositions (PyTorch)
+- [Distiller (https://github.com/NervanaSystems/distiller)] - package for compression using pruning and low-precision arithmetic (PyTorch)
+- [MorphNet](https://github.com/google-research/morph-net) - framework for neural networks architecture learning (TensorFlow)
 - [Mayo](https://github.com/deep-fry/mayo) - deep learning framework with fine- and coarse-grained pruning, network slimming, and quantization methods 
 - [PocketFlow](https://github.com/Tencent/PocketFlow) - framework for model pruning, sparcification, quantization (TensorFlow implementation) 
 - [Keras compressor](https://github.com/DwangoMediaVillage/keras_compressor) - compression using low-rank approximations, SVD for matrices, Tucker for tensors.
