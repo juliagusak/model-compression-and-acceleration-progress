@@ -25,7 +25,7 @@ Repository to track the progress in model compression and acceleration
 [paper](https://arxiv.org/abs/1405.3866)
 
 
-## Pruning & Sparcification
+## Pruning & Sparsification
 #### Papers
 - Rethinking the Value of Network Pruning (ICLR 2019, NIPS 2018 workshop) 
 [paper](https://arxiv.org/abs/1810.05270) | [code (PyTorch)](https://github.com/Eric-mingjie/rethinking-network-pruning)
