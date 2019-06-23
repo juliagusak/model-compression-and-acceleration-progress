@@ -11,6 +11,7 @@ Repository to track the progress in model compression and acceleration
 [paper](https://openreview.net/pdf?id=B1eHgu-Fim) | [code (PyTorch)](https://github.com/zuenko/ALRF)
 - Extreme Network Compression via Filter Group Approximation (ECCV 2018)
 [paper](https://arxiv.org/abs/1807.11254)
+- Algorithms for speeding up CNNs (Doctoral thesis by Lebedev vadim) (Chapter 3) [paper](https://www.skoltech.ru/app/data/uploads/2018/10/Thesis-Final.pdf)
 - Ultimate tensorization: compressing convolutional and FC layers alike (NIPS 2016 workshop)
 [paper](https://arxiv.org/abs/1611.03214) | [code (TensorFlow)](https://github.com/timgaripov/TensorNet-TF) | [code (MATLAB, Theano + Lasagne)](https://github.com/Bihaqo/TensorNet)
 - Compression of Deep Convolutional Neural Networks for Fast and Low Power Mobile Applications (ICLR 2016)
@@ -39,6 +40,7 @@ Repository to track the progress in model compression and acceleration
 [paper](https://papers.nips.cc/paper/7367-discrimination-aware-channel-pruning-for-deep-neural-networks.pdf) | [code and pretrained models (PyTorch)](https://github.com/SCUT-AILab/DCP)
 - AMC: AutoML for Model Compression and Acceleration on Mobile Devices (ECCV18)
 [paper](https://arxiv.org/abs/1802.03494) | [pretrained models (PyTorch, TensorFlow, TensorFlow Light)](https://github.com/mit-han-lab/amc-compressed-models)
+- Algorithms for speeding up CNNs (Doctoral thesis by Lebedev vadim) (Chapter 4) [paper](https://www.skoltech.ru/app/data/uploads/2018/10/Thesis-Final.pdf)
 - Channel Gating Neural Networks (2018)
 [paper](https://arxiv.org/abs/1805.12549)
 - Channel Pruning for Accelerating Very Deep Neural Networks (ICCV 2017)
@@ -99,10 +101,12 @@ TensorFlow implementation of three papers https://github.com/chengshengchan/mode
   - ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile Devices (CVPR 2018)
   [paper](https://arxiv.org/abs/1707.01083)
 
-
-
-
-
+## Other
+#### Papers
+- Algorithms for speeding up CNNs. Chapter 5 Impostor nets. (Doctoral
+  thesis by Lebedev vadim)
+  [paper](https://www.skoltech.ru/app/data/uploads/2018/10/Thesis-Final.pdf)
+  Small CNN and an RBF-based non-parametric classifier.
 
 ## Frameworks
 - [MUSCO](https://github.com/juliagusak/musco) - framework for model compression using tensor decompositions (PyTorch)
