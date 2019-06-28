@@ -101,12 +101,13 @@ TensorFlow implementation of three papers https://github.com/chengshengchan/mode
   - ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile Devices (CVPR 2018)
   [paper](https://arxiv.org/abs/1707.01083)
 
-## Other
-#### Papers
-- Algorithms for speeding up CNNs. Chapter 5 Impostor nets. (Doctoral
-  thesis by Lebedev vadim)
-  [paper](https://www.skoltech.ru/app/data/uploads/2018/10/Thesis-Final.pdf)
-  Small CNN and an RBF-based non-parametric classifier.
+
+## PhD thesis and overviews
+
+- Algorithms for speeding up convolutional neural networks (2018) [thesis](https://www.skoltech.ru/app/data/uploads/2018/10/Thesis-Final.pdf) Chapter 5 Impostor nets. Small CNN and an RBF-based non-parametric classifier.
+- Model Compression and Acceleration for Deep Neural Networks: The Principles, Progress, and Challenges (2018) [paper](http://cwww.ee.nctu.edu.tw/~cfung/docs/learning/cheng2018DNN_model_compression_accel.pdf)
+- Efficient methods and hardware for deep learning (2017) [thesis](https://stacks.stanford.edu/file/druid:qf934gh3708/EFFICIENT%20METHODS%20AND%20HARDWARE%20FOR%20DEEP%20LEARNING-augmented.pdf)
+
 
 ## Frameworks
 - [MUSCO](https://github.com/juliagusak/musco) - framework for model compression using tensor decompositions (PyTorch)
