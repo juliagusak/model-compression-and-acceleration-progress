@@ -100,8 +100,11 @@ TensorFlow implementation of three papers https://github.com/chengshengchan/mode
   [paper](https://arxiv.org/abs/1707.01083)
 
 
+## PhD thesis and overviews
 
-
+- ALGORITHMS FOR SPEEDING UPCONVOLUTIONAL NEURAL NETWORKS (2018) [thesis](https://www.skoltech.ru/app/data/uploads/2018/10/Thesis-Final.pdf)
+- Model Compression and Acceleration for Deep Neural Networks: The Principles, Progress, and Challenges (2018) [paper](http://cwww.ee.nctu.edu.tw/~cfung/docs/learning/cheng2018DNN_model_compression_accel.pdf)
+- Efficient methods and hardware for deep learning (2017) [thesis](https://stacks.stanford.edu/file/druid:qf934gh3708/EFFICIENT%20METHODS%20AND%20HARDWARE%20FOR%20DEEP%20LEARNING-augmented.pdf)
 
 
 ## Frameworks
