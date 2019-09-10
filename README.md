@@ -101,6 +101,8 @@ TensorFlow implementation of three papers https://github.com/chengshengchan/mode
   [paper](https://arxiv.org/abs/1807.11164)
   - ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile Devices (CVPR 2018)
   [paper](https://arxiv.org/abs/1707.01083)
+- Multi-Fiber Networks for Video Recognition (ECCV 2018)
+[paper](https://arxiv.org/abs/1807.11195) | [code (PyTorch)](https://github.com/cypw/PyTorch-MFNet)
 
 
 ## PhD thesis and overviews
