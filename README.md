@@ -43,6 +43,7 @@ Repository to track the progress in model compression and acceleration
 [paper](https://arxiv.org/abs/1802.03494) | [pretrained models (PyTorch, TensorFlow, TensorFlow Light)](https://github.com/mit-han-lab/amc-compressed-models)
 - Channel Gating Neural Networks (2018)
 [paper](https://arxiv.org/abs/1805.12549)
+- DSD: Dense-Sparse-Dense Training for Deep Neural Networks [paper](https://arxiv.org/abs/1607.04381) | [pretrained models (Caffe)](https://songhan.github.io/DSD/) (ICLR 2017)
 - Channel Pruning for Accelerating Very Deep Neural Networks (ICCV 2017)
 [paper](https://arxiv.org/abs/1707.06168) | [code and pretrained models (Caffe)](https://github.com/yihui-he/channel-pruning) | [code (PyTorch)](https://github.com/Eric-mingjie/rethinking-network-pruning/tree/master/imagenet)
 - Learning Efficient Convolutional Networks through Network Slimming (ICCV 2017)
@@ -117,6 +118,7 @@ TensorFlow implementation of three papers https://github.com/chengshengchan/mode
 - [PocketFlow](https://github.com/Tencent/PocketFlow) - framework for model pruning, sparcification, quantization (TensorFlow implementation) 
 - [Keras compressor](https://github.com/DwangoMediaVillage/keras_compressor) - compression using low-rank approximations, SVD for matrices, Tucker for tensors.
 - [Caffe compressor](https://github.com/yuanyuanli85/CaffeModelCompression) K-means based quantization
+
 
 
 ## Comparison of different approaches
