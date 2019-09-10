@@ -33,6 +33,8 @@ Repository to track the progress in model compression and acceleration
 [paper](https://arxiv.org/abs/1810.05331) | [code](https://github.com/deep-fry/mayo)
 - AutoPruner: An End-to-End Trainable Filter Pruning Method for Efficient Deep Model Inference (2019)
 [paper](https://arxiv.org/abs/1805.08941)
+- CLIP-Q: Deep Network Compression Learning by In-ParallelPruning-Quantization (CVPR 2018)
+[paper](http://www.sfu.ca/~ftung/papers/clipq_cvpr18.pdf)
 - Soft Filter Pruning for Accelerating Deep Convolutional Neural Networks (IJCAI 2018)
 [paper](https://arxiv.org/abs/1808.06866) | [code and models (PyTorch)](https://github.com/he-y/soft-filter-pruning)
 - Discrimination-aware Channel Pruning for Deep Neural Networks (NIPS 2018)
