@@ -103,6 +103,13 @@ TensorFlow implementation of three papers https://github.com/chengshengchan/mode
   [paper](https://arxiv.org/abs/1707.01083)
 - Multi-Fiber Networks for Video Recognition (ECCV 2018)
 [paper](https://arxiv.org/abs/1807.11195) | [code (PyTorch)](https://github.com/cypw/PyTorch-MFNet)
+- IGCVs
+  - IGCV3: Interleaved Low-Rank Group Convolutions for Efficient Deep Neural Networks (BMVC 2018)
+  [paper](https://arxiv.org/abs/1806.00178) | [code and pretrained models (MXNet)](https://github.com/homles11/IGCV3)
+  - IGCV2: Interleaved Structured Sparse Convolutional Neural Networks (CVPR 2018)
+  [paper](https://arxiv.org/abs/1804.06202)
+  - Interleaved Group Convolutions for Deep Neural Networks (ICCV 2017)
+  [paper](https://arxiv.org/abs/1707.02725)
 
 
 ## PhD thesis and overviews
