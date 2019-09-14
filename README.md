@@ -40,7 +40,7 @@ Repository to track the progress in model compression and acceleration
 - Discrimination-aware Channel Pruning for Deep Neural Networks (NIPS 2018)
 [paper](https://papers.nips.cc/paper/7367-discrimination-aware-channel-pruning-for-deep-neural-networks.pdf) | [code and pretrained models (PyTorch)](https://github.com/SCUT-AILab/DCP)
 - AMC: AutoML for Model Compression and Acceleration on Mobile Devices (ECCV18)
-[paper](https://arxiv.org/abs/1802.03494) | [pretrained models (PyTorch, TensorFlow, TensorFlow Light)](https://github.com/mit-han-lab/amc-compressed-models)
+[paper](https://arxiv.org/abs/1802.03494) | [code (PyTorch)](https://github.com/mit-han-lab/amc-release) | [pretrained models (PyTorch, TensorFlow, TensorFlow Light)](https://github.com/mit-han-lab/amc-compressed-models)
 - Channel Gating Neural Networks (2018)
 [paper](https://arxiv.org/abs/1805.12549)
 - DSD: Dense-Sparse-Dense Training for Deep Neural Networks [paper](https://arxiv.org/abs/1607.04381) | [pretrained models (Caffe)](https://songhan.github.io/DSD/) (ICLR 2017)
