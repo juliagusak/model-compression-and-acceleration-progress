@@ -147,3 +147,4 @@ Please, see ```comparative_results.pdf```
 - https://github.com/mapleam/model-compression-and-acceleration-4-DNN
 - https://github.com/cedrickchee/awesome-ml-model-compression
 - https://github.com/jnjaby/Model-Compression-Acceleration
+- https://github.com/he-y/Awesome-Pruning
