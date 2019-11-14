@@ -82,7 +82,13 @@ Repository to track the progress in model compression and acceleration
 TensorFlow implementation of three papers https://github.com/chengshengchan/model_compression, results for CIFAR-10
 
 ## Quantization
-- TODO
+- XNOR-Net++ (2019)
+[paper](https://arxiv.org/abs/1909.13863)
+- Matrix and tensor decompositions for training binary neural networks (2019)
+[paper](https://arxiv.org/pdf/1904.07852.pdf)
+- XNOR-Net (ECCV 2016)
+[paper](https://arxiv.org/abs/1603.05279) | [code(Pytorhc) https://github.com/jiecaoyu/XNOR-Net-PyTorch]
+
 
 ## Architecture search
 - MobileNets
