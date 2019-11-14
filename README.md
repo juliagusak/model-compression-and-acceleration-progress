@@ -87,7 +87,7 @@ TensorFlow implementation of three papers https://github.com/chengshengchan/mode
 - Matrix and tensor decompositions for training binary neural networks (2019)
 [paper](https://arxiv.org/pdf/1904.07852.pdf)
 - XNOR-Net (ECCV 2016)
-[paper](https://arxiv.org/abs/1603.05279) | [code(Pytorhc) https://github.com/jiecaoyu/XNOR-Net-PyTorch]
+[paper](https://arxiv.org/abs/1603.05279) | [code (Pytorch)](https://github.com/jiecaoyu/XNOR-Net-PyTorch)
 
 
 ## Architecture search
