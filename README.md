@@ -5,7 +5,7 @@ Repository to track the progress in model compression and acceleration
 - T-Net: Parametrizing Fully Convolutional Nets with a Single High-Order Tensor (CVPR 2019) 
 [paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Kossaifi_T-Net_Parametrizing_Fully_Convolutional_Nets_With_a_Single_High-Order_Tensor_CVPR_2019_paper.pdf)
 - MUSCO: Multi-Stage COmpression of neural networks (ICCVW 2019)
-[paper](https://arxiv.org/abs/1903.09973) | [code (PyTorch)](https://github.com/juliagusak/musco)
+[paper](http://openaccess.thecvf.com/content_ICCVW_2019/papers/LPCV/Gusak_Automated_Multi-Stage_Compression_of_Neural_Networks_ICCVW_2019_paper.pdf) | [code (PyTorch)](https://github.com/juliagusak/musco)
 - Efficient Neural Network Compression (CVPR 2019)
 [paper](https://arxiv.org/abs/1811.12781) | [code (Caffe)](https://github.com/Hyeji-Kim/ENC) 
 - Adaptive Mixture of Low-Rank Factorizations for Compact Neural Modeling (ICLR 2019)
