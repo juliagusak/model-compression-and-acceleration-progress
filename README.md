@@ -83,6 +83,8 @@ Repository to track the progress in model compression and acceleration
 TensorFlow implementation of three papers https://github.com/chengshengchan/model_compression, results for CIFAR-10
 
 ## Quantization
+- Training Binary Neural Networks with Real-to-Binary Convolutions (ICLR 2020)
+[paper](https://arxiv.org/abs/2003.11535) | [code (coming soon)](https://github.com/brais-martinez/real2binary)
 - XNOR-Net++ (2019)
 [paper](https://arxiv.org/abs/1909.13863)
 - Matrix and tensor decompositions for training binary neural networks (2019)
