@@ -83,14 +83,27 @@ Repository to track the progress in model compression and acceleration
 TensorFlow implementation of three papers https://github.com/chengshengchan/model_compression, results for CIFAR-10
 
 ## Quantization
+- Bayesian Bits: Unifying Quantization and Pruning (2020) [paper](https://arxiv.org/abs/2005.07093)
+- Up or Down? Adaptive Rounding for Post-Training Quantization (2020) [paper](https://arxiv.org/abs/2004.10568)
+- Gradient $\ell_1$ Regularization for Quantization Robustness (ICLR 2020) [paper](https://arxiv.org/abs/2002.07520)
 - Training Binary Neural Networks with Real-to-Binary Convolutions (ICLR 2020)
 [paper](https://arxiv.org/abs/2003.11535) | [code (coming soon)](https://github.com/brais-martinez/real2binary)
+- Data-Free Quantization Through Weight Equalization and Bias Correction (ICCV 2019) [paper](https://arxiv.org/abs/1906.04721) | [code (PyTorch)](https://github.com/jakc4103/DFQ)
 - XNOR-Net++ (2019)
 [paper](https://arxiv.org/abs/1909.13863)
 - Matrix and tensor decompositions for training binary neural networks (2019)
 [paper](https://arxiv.org/pdf/1904.07852.pdf)
 - XNOR-Net (ECCV 2016)
 [paper](https://arxiv.org/abs/1603.05279) | [code (Pytorch)](https://github.com/jiecaoyu/XNOR-Net-PyTorch)
+- Trained Quantization Thresholds for Accurate and Efficient Fixed-Point Inference of Deep Neural Networks (2019) [paper](https://arxiv.org/abs/1903.08066) | [code (TensorFlow)](https://github.com/Xilinx/graffitist)
+- Relaxed Quantization for Discretized Neural Networks (ICLR 2019) [paper](https://arxiv.org/abs/1810.01875)
+- Training and Inference with Integers in Deep Neural Networks (ICLR 2018) [paper](https://arxiv.org/abs/1802.04680) | [code (TensorFlow)](https://github.com/boluoweifenda/WAGE)
+- Training Quantized Nets: A Deeper Understanding (NeurIPS 2017) [paper](https://arxiv.org/abs/1706.02379) 
+- Quantization and Training of Neural Networks for Efficient Integer-Arithmetic-Only Inference (2017) [paper](https://arxiv.org/abs/1712.05877)
+- Deep Learning with Limited Numerical Precision (2015) [paper](https://arxiv.org/abs/1502.02551)
+- Estimating or Propagating Gradients Through Stochastic Neurons for Conditional Computation (2013) [paper](https://arxiv.org/abs/1308.3432)
+
+
 
 
 ## Architecture search
@@ -123,19 +136,22 @@ TensorFlow implementation of three papers https://github.com/chengshengchan/mode
 
 ## PhD thesis and overviews
 
+- Quantizing deep convolutional networks for efficient inference: A whitepaper (2018) [paper](https://arxiv.org/abs/1806.08342)
 - Algorithms for speeding up convolutional neural networks (2018) [thesis](https://www.skoltech.ru/app/data/uploads/2018/10/Thesis-Final.pdf)
 - Model Compression and Acceleration for Deep Neural Networks: The Principles, Progress, and Challenges (2018) [paper](http://cwww.ee.nctu.edu.tw/~cfung/docs/learning/cheng2018DNN_model_compression_accel.pdf)
 - Efficient methods and hardware for deep learning (2017) [thesis](https://stacks.stanford.edu/file/druid:qf934gh3708/EFFICIENT%20METHODS%20AND%20HARDWARE%20FOR%20DEEP%20LEARNING-augmented.pdf)
 
 
 ## Frameworks
-- [MUSCO](https://github.com/juliagusak/musco) - framework for model compression using tensor decompositions (PyTorch, TensorFlow)
+- [MUSCO](https://github.com/musco-ai) - framework for model compression using tensor decompositions (PyTorch, TensorFlow)
+- [AIMET](https://github.com/quic/aimet) - AI Model Efficiency Toolkit (PyTorch, Tensorflow)
 - [Distiller](https://github.com/NervanaSystems/distiller) - package for compression using pruning and low-precision arithmetic (PyTorch)
 - [MorphNet](https://github.com/google-research/morph-net) - framework for neural networks architecture learning (TensorFlow)
 - [Mayo](https://github.com/deep-fry/mayo) - deep learning framework with fine- and coarse-grained pruning, network slimming, and quantization methods 
 - [PocketFlow](https://github.com/Tencent/PocketFlow) - framework for model pruning, sparcification, quantization (TensorFlow implementation) 
 - [Keras compressor](https://github.com/DwangoMediaVillage/keras_compressor) - compression using low-rank approximations, SVD for matrices, Tucker for tensors.
 - [Caffe compressor](https://github.com/yuanyuanli85/CaffeModelCompression) K-means based quantization
+- [gemmlowp](https://github.com/google/gemmlowp/blob/master/doc/quantization.md#implementation-of-quantized-matrix-multiplication) - Building a quantization paradigm from first principles (C++)
 
 
 
