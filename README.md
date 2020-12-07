@@ -152,6 +152,7 @@ TensorFlow implementation of three papers https://github.com/chengshengchan/mode
 - [Keras compressor](https://github.com/DwangoMediaVillage/keras_compressor) - compression using low-rank approximations, SVD for matrices, Tucker for tensors.
 - [Caffe compressor](https://github.com/yuanyuanli85/CaffeModelCompression) K-means based quantization
 - [gemmlowp](https://github.com/google/gemmlowp/blob/master/doc/quantization.md#implementation-of-quantized-matrix-multiplication) - Building a quantization paradigm from first principles (C++)
+- [NNI](https://github.com/microsoft/nni) - Framework for Feature Engineering, NAS, Hyperparam tuning and Model compression 
 
 
 
