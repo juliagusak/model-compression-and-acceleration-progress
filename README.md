@@ -140,7 +140,7 @@ TensorFlow implementation of three papers https://github.com/chengshengchan/mode
 - Algorithms for speeding up convolutional neural networks (2018) [thesis](https://www.skoltech.ru/app/data/uploads/2018/10/Thesis-Final.pdf)
 - Model Compression and Acceleration for Deep Neural Networks: The Principles, Progress, and Challenges (2018) [paper](http://cwww.ee.nctu.edu.tw/~cfung/docs/learning/cheng2018DNN_model_compression_accel.pdf)
 - Efficient methods and hardware for deep learning (2017) [thesis](https://stacks.stanford.edu/file/druid:qf934gh3708/EFFICIENT%20METHODS%20AND%20HARDWARE%20FOR%20DEEP%20LEARNING-augmented.pdf)
-
+- Efficient Deep Learning: A Survey on Making Deep Learning Models Smaller, Faster, and Better. [paper](https://arxiv.org/abs/2106.08962)
 
 ## Frameworks
 - [MUSCO](https://github.com/musco-ai) - framework for model compression using tensor decompositions (PyTorch, TensorFlow)
